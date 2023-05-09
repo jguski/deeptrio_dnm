@@ -1,0 +1,12 @@
+-shared
+-o
+bazel-out/k8-opt/bin/third_party/nucleus/io/libvcf_reader.so
+-fuse-ld=gold
+-Wl,-no-as-needed
+-Wl,-z,relro,-z,now
+-B/usr/bin
+-pass-exit-codes
+-lstdc++
+-lm
+-Wl,--gc-sections
+bazel-out/k8-opt/bin/third_party/nucleus/io/_objs/vcf_reader/vcf_reader.pic.o

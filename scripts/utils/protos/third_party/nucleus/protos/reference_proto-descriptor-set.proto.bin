@@ -1,0 +1,18 @@
+
+Ì
+*third_party/nucleus/protos/reference.protonucleus.genomics.v1&third_party/nucleus/protos/range.proto"ù
+
+ContigInfo
+name (	Rname 
+description (	Rdescription
+n_bases (RnBases@
+extra (2*.nucleus.genomics.v1.ContigInfo.ExtraEntryRextra 
+pos_in_fasta (R
+posInFasta8
+
+ExtraEntry
+key (	Rkey
+value (	Rvalue:8"]
+ReferenceSequence2
+region (2.nucleus.genomics.v1.RangeRregion
+bases (	Rbasesbproto3

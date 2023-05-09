@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/deepvariant/protos/libdeepvariant_cc_pb2.pic.a
+bazel-out/k8-opt/bin/deepvariant/protos/_objs/deepvariant_cc_pb2/deepvariant.pb.pic.o

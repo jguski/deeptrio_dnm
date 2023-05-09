@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/third_party/nucleus/io/python/libreference_cclib.a
+bazel-out/k8-opt/bin/third_party/nucleus/io/python/_objs/reference_cclib/reference.o
+bazel-out/k8-opt/bin/third_party/nucleus/io/python/_objs/reference_cclib/reference_init.o

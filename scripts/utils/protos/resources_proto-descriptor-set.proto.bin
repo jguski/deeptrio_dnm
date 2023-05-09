@@ -1,0 +1,17 @@
+
+ƒ
+"deepvariant/protos/resources.protolearning.genomics.deepvariant"µ
+ResourceMetrics
+	host_name (	RhostName.
+physical_core_count (RphysicalCoreCount*
+cpu_frequency_mhz (RcpuFrequencyMhz&
+total_memory_mb (RtotalMemoryMb*
+wall_time_seconds (RwallTimeSeconds1
+cpu_user_time_seconds (RcpuUserTimeSeconds5
+cpu_system_time_seconds (RcpuSystemTimeSeconds+
+memory_peak_rss_mb (RmemoryPeakRssMb
+
+read_bytes	 (R	readBytes
+write_bytes
+ (R
+writeBytesbproto3

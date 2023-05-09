@@ -1,0 +1,12 @@
+-shared
+-o
+bazel-out/k8-opt/bin/third_party/nucleus/io/libreader_base.so
+-fuse-ld=gold
+-Wl,-no-as-needed
+-Wl,-z,relro,-z,now
+-B/usr/bin
+-pass-exit-codes
+-lstdc++
+-lm
+-Wl,--gc-sections
+bazel-out/k8-opt/bin/third_party/nucleus/io/_objs/reader_base/reader_base.pic.o

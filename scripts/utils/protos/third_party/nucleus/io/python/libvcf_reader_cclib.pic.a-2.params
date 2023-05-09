@@ -1,0 +1,4 @@
+rcsD
+bazel-out/k8-opt/bin/third_party/nucleus/io/python/libvcf_reader_cclib.pic.a
+bazel-out/k8-opt/bin/third_party/nucleus/io/python/_objs/vcf_reader_cclib/vcf_reader.pic.o
+bazel-out/k8-opt/bin/third_party/nucleus/io/python/_objs/vcf_reader_cclib/vcf_reader_init.pic.o

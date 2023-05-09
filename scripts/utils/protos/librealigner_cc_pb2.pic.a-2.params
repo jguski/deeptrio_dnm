@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/deepvariant/protos/librealigner_cc_pb2.pic.a
+bazel-out/k8-opt/bin/deepvariant/protos/_objs/realigner_cc_pb2/realigner.pb.pic.o

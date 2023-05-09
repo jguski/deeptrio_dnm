@@ -1,0 +1,19 @@
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python<3.8
+  - cudatoolkit==11.6.0
+  - cudnn==8.2.1.32
+  - pysam
+  - pandas
+  - networkx
+  - protobuf<4
+  - bcftools
+  - pip
+  - absl-py
+  - pip:
+    - tensorflow-gpu==2.5.0
+    - numpy==1.19.2
+

@@ -1,0 +1,13 @@
+-shared
+-o
+bazel-out/k8-opt/bin/third_party/nucleus/io/python/libvcf_reader_cclib.so
+-fuse-ld=gold
+-Wl,-no-as-needed
+-Wl,-z,relro,-z,now
+-B/usr/bin
+-pass-exit-codes
+-lstdc++
+-lm
+-Wl,--gc-sections
+bazel-out/k8-opt/bin/third_party/nucleus/io/python/_objs/vcf_reader_cclib/vcf_reader.pic.o
+bazel-out/k8-opt/bin/third_party/nucleus/io/python/_objs/vcf_reader_cclib/vcf_reader_init.pic.o

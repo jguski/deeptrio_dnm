@@ -1,0 +1,3 @@
+rcsD
+bazel-out/k8-opt/bin/deepvariant/protos/librealigner_pyclif.a
+bazel-out/k8-opt/bin/deepvariant/protos/_objs/realigner_pyclif/realigner_pyclif.o

@@ -1,0 +1,76 @@
+
+é
+)third_party/nucleus/protos/variants.protonucleus.genomics.v1*third_party/nucleus/protos/reference.proto'third_party/nucleus/protos/struct.proto"¡
+Variant%
+reference_name (	RreferenceName
+start (Rstart
+end (Rend
+names (	Rnames'
+reference_bases (	RreferenceBases'
+alternate_bases (	RalternateBases
+quality (Rquality
+filter	 (	Rfilter:
+info
+ (2&.nucleus.genomics.v1.Variant.InfoEntryRinfo6
+calls (2 .nucleus.genomics.v1.VariantCallRcalls$
+variant_set_id (	RvariantSetId
+id (	Rid
+created (RcreatedW
+	InfoEntry
+key (	Rkey4
+value (2.nucleus.genomics.v1.ListValueRvalue:8JJJ"‚
+VariantCall"
+call_set_name	 (	RcallSetName
+genotype (Rgenotype
+	is_phased
+ (RisPhased
+phaseset (	Rphaseset/
+genotype_likelihood (RgenotypeLikelihood>
+info (2*.nucleus.genomics.v1.VariantCall.InfoEntryRinfo
+call_set_id (	R	callSetIdW
+	InfoEntry
+key (	Rkey4
+value (2.nucleus.genomics.v1.ListValueRvalue:8JJJ"Æ
+	VcfHeader
+
+fileformat (	R
+fileformat9
+contigs (2.nucleus.genomics.v1.ContigInfoRcontigs<
+filters (2".nucleus.genomics.v1.VcfFilterInfoRfilters2
+infos (2.nucleus.genomics.v1.VcfInfoRinfos<
+formats (2".nucleus.genomics.v1.VcfFormatInfoRformats!
+sample_names (	RsampleNamesT
+structured_extras (2'.nucleus.genomics.v1.VcfStructuredExtraRstructuredExtras5
+extras (2.nucleus.genomics.v1.VcfExtraRextras"A
+VcfFilterInfo
+id (	Rid 
+description (	Rdescription"™
+VcfInfo
+id (	Rid
+number (	Rnumber
+type (	Rtype 
+description (	Rdescription
+source (	Rsource
+version (	Rversion"m
+VcfFormatInfo
+id (	Rid
+number (	Rnumber
+type (	Rtype 
+description (	Rdescription"]
+VcfStructuredExtra
+key (	Rkey5
+fields (2.nucleus.genomics.v1.VcfExtraRfields"2
+VcfExtra
+key (	Rkey
+value (	Rvalue"Â
+VcfReaderOptions0
+excluded_info_fields (	RexcludedInfoFields4
+excluded_format_fields (	RexcludedFormatFields:
+store_gl_and_pl_in_info_map (RstoreGlAndPlInInfoMapJJ"±
+VcfWriterOptions0
+excluded_info_fields (	RexcludedInfoFields4
+excluded_format_fields (	RexcludedFormatFields*
+round_qual_values (RroundQualValuesD
+ retrieve_gl_and_pl_from_info_map	 (RretrieveGlAndPlFromInfoMap%
+exclude_header
+ (RexcludeHeaderJJJJJbproto3
